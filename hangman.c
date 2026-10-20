@@ -5,8 +5,11 @@ int main ()
     char guess;
 
     printf("Buchstaben: ");
-    scanf("%c", &guess);
-    
+    if (scanf("%c", &guess) != 1){
+        printf("Ungültige Eingabe");
+        return 1;
+    }
+
     if (guess == secret){
         printf("Treffer %c", secret);}
     else{
