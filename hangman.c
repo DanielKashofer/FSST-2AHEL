@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main ()
 {
-    const char secret = 'x';
+    const char secret[] = "Haiiiii";
     char guess;
 
     printf("Buchstaben: ");
@@ -9,11 +9,13 @@ int main ()
         printf("Ungültige Eingabe");
         return 1;
     }
-
-    if (guess == secret){
-        printf("Treffer %c", secret);}
-    else{
-        printf("Fail");}
-
+    
+    int treff = 0;
+    for (int i = 0; i < sizeof(secret) - 1; i++) {
+        if ((secret[i]) == guess) {
+            treff++;
+        }
+    }
+    printf("Treffer: %d", treff);
     return 0;
 }
