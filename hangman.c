@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main ()
 {
-    char secret = 'x';
-    char guess = 'y';
+    const char secret = 'x';
+    char guess;
 
     if (guess == secret){
         printf("Treffer %c", secret);}
     else{
-        printf("Fail %c", guess);}
+        printf("Fail");}
 
     return 0;
 }
