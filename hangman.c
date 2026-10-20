@@ -4,6 +4,9 @@ int main ()
     const char secret = 'x';
     char guess;
 
+    printf("Buchstaben: ");
+    scanf("%c", &guess);
+    
     if (guess == secret){
         printf("Treffer %c", secret);}
     else{
