@@ -6,6 +6,7 @@ int main ()
     char guessed[sizeof(secret) - 1];
     char guess;
     int treff = 0;
+    treff = 7;
 
     for (int i = 0; i < len; i++){
         guessed[i] = '_';
@@ -17,7 +18,6 @@ int main ()
         return 1;
     }
     
-    int treff = 0;
     for (int i = 0; i < len; i++) {
         if ((secret[i]) == guess) {
             treff++;
@@ -26,7 +26,7 @@ int main ()
     }
     
     for (int i = 0; i < len; i++) {
-         printf("");
+         printf("%c ", guessed[i]);
     }
         
     printf("Treffer: %d", treff);
