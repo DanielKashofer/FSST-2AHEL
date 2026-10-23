@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main ()
 {
-    const char secret[] = "Haiiiii";
+    const char secret[] = "MONSTER4EVER";
     char guess;
 
     printf("Buchstaben: ");
