@@ -6,7 +6,6 @@ int main ()
     char guessed[sizeof(secret) - 1];
     char guess;
     int treff = 0;
-    treff = 7;
 
     for (int i = 0; i < len; i++){
         guessed[i] = '_';
