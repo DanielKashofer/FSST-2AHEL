@@ -1,1 +1,70 @@
+Kundenauftrag: Berechnung der Parkgebühren für einen kleinen Parkplatz
+1. Ausgangssituation
+Ich betreibe einen kleinen privaten Parkplatz in der Nähe eines Einkaufszentrums. Bisher berechne ich die Parkgebühren für meine Kunden immer von Hand. Dabei passieren gelegentlich Fehler, besonders wenn mehrere Fahrzeuge hintereinander parken.
+
+Ich möchte deshalb ein kleines Programm haben, das mir die Berechnung der Parkgebühren abnimmt.
+
+2. Dein Anliegen
+Ich benötige ein einfaches Programm, mit dem ich die Parkkosten eines Fahrzeugs anhand der Parkdauer berechnen kann.
+
+Die Gebühren sollen fair und leicht verständlich sein. Außerdem möchte ich sofort sehen, wie viel ein Kunde bezahlen muss.
+
+3. Gewünschte Funktionen
+Das Programm soll folgende Funktionen bieten:
+
+Die Parkdauer eines Fahrzeugs soll eingegeben werden können.
+
+Die Parkgebühr soll anhand der Parkdauer berechnet werden.
+
+Die erste angefangene Stunde kostet 2 €.
+
+Jede weitere angefangene Stunde kostet 1,50 €.
+
+Die maximale Tagesgebühr beträgt 12 €.
+
+Fahrzeuge, die weniger als 15 Minuten parken, müssen nichts bezahlen.
+
+Bei einer Parkdauer von mehr als 24 Stunden soll eine entsprechende Fehlermeldung erscheinen.
+
+Nach der Berechnung soll das Ergebnis übersichtlich angezeigt werden.
+
+4. Bedienung
+Wenn ich das Programm starte, möchte ich nach der Parkdauer gefragt werden.
+
+Die Eingabe soll in Minuten erfolgen.
+
+Anschließend soll das Programm folgende Informationen anzeigen:
+
+Eingegebene Parkdauer in Stunden und Minuten.
+
+Zu zahlender Betrag in Euro.
+
+Einen Hinweis, wenn das Parken kostenlos ist.
+
+Ungültige Eingaben, beispielsweise negative Parkzeiten, sollen erkannt und mit einer verständlichen Fehlermeldung beantwortet werden.
+
+5. Beispiel
+Ein Kunde parkt sein Fahrzeug für 135 Minuten.
+
+Das Programm soll folgende Ausgabe liefern:
+
+Parkplatz – Gebührenabrechnung
+
+Beispielausgabe
+
+Parkdauer: 2 Stunden und 15 Minuten
+
+Erste Stunde: 2,00 €
+
+Weitere angefangene Stunden: 3,00 €
+
+Gesamtbetrag
+
+5,00 €
+6. Besondere Wünsche
+Die Beträge sollen immer mit zwei Nachkommastellen angezeigt werden.
+
+Das Programm soll nach jeder Berechnung erneut eine Parkdauer abfragen können.
+
+Ich möchte das Programm jederzeit über eine entsprechende Eingabe beenden können.
 
