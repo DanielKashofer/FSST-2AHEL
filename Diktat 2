@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+leet(char* text) {
+    int buchstaben = 0;
+    for (int i = 0; text[i] != '\0'; i++) {
+        if (i == 'e' || 'E') {
+            text[i] = '3';
+            buchstaben++;
+        }
+    }
+    if(buchstaben > 0){
+        return buchstaben;
+    } else {
+        return 0;
+    }
+
+}
+
+int main(int argc, char* argv[]) {
+
+
+
+}
